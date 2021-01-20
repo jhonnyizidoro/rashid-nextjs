@@ -1,0 +1,38 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebApplication",
+  "name": "Rashid - Calculadora de gastos",
+  "url": "https://www.rashidcalculadora.com.br",
+  "image":"https://www.rashidcalculadora.com.br/favicons/android-chrome-512x512.png",
+  "description": "Calculadora para dividir gastos de passeios e viagens entre as pessoas participantes.",
+  "applicationCategory": "Calculator",
+  "genre": "widget",
+  "about": {
+    "description": "Utilize essa aplicação para dividir os gastos quando você sair com pessoas e cada uma gastar uma quantia diferente."
+  },
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "softwareVersion": "1.0.0",
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "url": "https://www.rashidcalculadora.com.br",
+    "keywords": [
+      "calculadora",
+      "dividir gastos",
+      "rachar gastos",
+      "gasto de viagem",
+      "gasto de passeio",
+      "viagem",
+      "passeios",
+      "calcular divisão"
+    ]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "BR",
+    "streetAddress": "Rua Adão Sobocinski",
+    "addressLocality": "Curitiba",
+    "addressRegion": "PR",
+    "postalCode": "80050-480"
+  },
+  "operatingSystem": "All"
+}
