@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Colors } from '../../styles/variables'
 
-interface ISEOProps {
+interface SEOProps {
 	title: string
 	description: string
 	keyWords: string
@@ -10,7 +10,7 @@ interface ISEOProps {
 const siteName = ''
 const asPath = ''
 
-const SEO = ({ title, description, keyWords }: ISEOProps): JSX.Element => (
+const SEO = ({ title, description, keyWords }: SEOProps): JSX.Element => (
 	<Head>
 		<title>{title}</title>
 

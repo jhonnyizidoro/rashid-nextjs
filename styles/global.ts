@@ -10,20 +10,22 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    color: ${Colors.DARK_1};
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: ${Fonts.REGULAR};
-  }
-
-  body {
-    background: linear-gradient(to right, ${Colors.LIGHT_1}, ${Colors.LIGHT_2} 50%);
-    padding-bottom: 35px;
+    background: linear-gradient(to right, ${Colors.LIGHT_2}, ${Colors.LIGHT_1} 50%);
   }
 
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  body,
+  input,
+  textarea,
+  button {
+    color: ${Colors.DARK_1};
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: ${Fonts.REGULAR};
   }
 `
 
